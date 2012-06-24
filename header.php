@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title><?php candytitle('&raquo;') ?></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 	<?php candyCss('styles.css') ?>
 	<?php candyCss('user.php') ?>
@@ -10,12 +11,6 @@
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<?php candyHead() ?>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript">
-		$(window).resize(function() {
-			console.log(window.innerWidth);
-		});
-	</script>
 </head>
 <body>
 <div class="container">

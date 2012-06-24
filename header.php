@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title><?php candytitle('&raquo;') ?></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 	<?php candyCss('styles.css') ?>
 	<?php candyCss('user.php') ?>

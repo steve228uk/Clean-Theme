@@ -16,7 +16,7 @@
 <div class="container">
 <header id="site-header" class="clearfix">
 	<div id="site-title">
-		<a href="<?php echo URL_PATH ?>" title="Home"><?php echo $Candy['options']->getOption('site_title') ?></a>
+		<a href="<?php echo URL_PATH ?>" title="Home"><?php echo Candy::Options('site_title') ?></a>
 	</div>	
 	<?php theNav() ?>
 </header>
